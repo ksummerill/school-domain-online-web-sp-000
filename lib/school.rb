@@ -12,10 +12,16 @@ class School
   end
 
   # grade is key; name is value in array
+  # adding multiple students: 
+    # if the grade key exists, add student's name to the array
+    # otherwise, create grade key and add student's name to the array
   def add_student(name, grade)
     # roster = {grade => []}
-    roster[grade] = []
-    roster[grade] << name
+    if roster[grade] = []
+      roster[grade] << name
+    else 
+      roster[grade] << name
+    end  
 
   end
 
