@@ -1,5 +1,5 @@
 # School class
 
-class School(name)
+class School
 
 end
