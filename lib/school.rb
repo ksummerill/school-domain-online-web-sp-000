@@ -13,8 +13,8 @@ class School
 
   # grade is key; name is value in array
   # adding multiple students:
-    
-    
+
+
   def add_student(name, grade)
     # roster = {grade => []}
     # if grade key doesn't exist, create grade key w/ empty array and add student's name to the array
