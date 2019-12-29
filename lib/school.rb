@@ -1,1 +1,3 @@
-# code here!
+# School class
+
+class School(name)
