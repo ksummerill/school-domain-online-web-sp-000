@@ -38,6 +38,7 @@ class School
     roster.each do |key, value|
       alpha_roster[key] = value.sort
     end
+    alpha_roster
   end
 
 end
