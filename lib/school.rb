@@ -33,7 +33,7 @@ class School
 
   # You should be able to get a sorted list of all the students where the strings
   # in the student arrays are sorted alphabetically.
-  def sort(name, grade)
+  def sort
     return roster.sort_by(&:name)
   end
 
