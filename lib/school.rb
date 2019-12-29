@@ -13,6 +13,7 @@ class School
 
   # grade is key; name is value in array
   def add_student(name, grade)
+    # roster = {grade => []}
     roster[grade] = []
     roster[grade] << name
 
