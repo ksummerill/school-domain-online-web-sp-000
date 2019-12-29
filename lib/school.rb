@@ -34,8 +34,9 @@ class School
   # You should be able to get a sorted list of all the students where the strings
   # in the student arrays are sorted alphabetically.
   def sort
-    roster.value.sort_by { |value| roster[value] }.each do
-      |value|
+    alpha_roster = {}
+    roster.each do |key, value|
+      alpha_roster[key] = value.sort
     end
   end
 
