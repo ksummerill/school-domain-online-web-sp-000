@@ -17,10 +17,10 @@ class School
 
   def add_student(name, grade)
     # roster = {grade => []}
-    # if grade key doesn't exist, create grade key w/ empty array and add student's name to the array
+    # If the grade key exists, just add student's name to the existing array
     if roster.include?(grade)
       roster[grade] << name
-    # Otherwise if the grade key exists, just add student's name to the existing array
+    # if grade key doesn't exist, create grade key w/ empty array and add student's name to the array
     else
       roster[grade] = []
       roster[grade] << name
